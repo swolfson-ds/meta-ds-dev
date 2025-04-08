@@ -1,6 +1,6 @@
 inherit externalsrc
-S = "/home/sam/projects/ds/containers/sdr"
-B = "/home/sam/projects/yocto-wrk/build/sdr"
+S="/home/sam/projects/ds/containers/processing/mahalanobis"
+B="/home/sam/projects/yocto-wrk/mahalanobis"
 
 do_unpack[noexec] = "1"
 do_fetch[noexec] = "1"
